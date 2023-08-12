@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;
+margin: 0%;
+padding: 0%;}
+
+#img{
+    margin-top: 100px;
+    margin-bottom: 100px;
+  margin-left: 100px;
+    height: 400px;
+  
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color:#E9F1FA;
+  color: #00ABE4;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+
+}
+
+input[type=submit]:hover {
+  background-color:#E9F1FA;
+  
+}
+h1{
+  margin-top: 100px;
+}
+
+.container {
+
+  border-radius: 5px;
+  background-color: #00ABE4;
+  padding: 20px;
+}
+#main2{
+    border: 1px solid #00ABE4;
+    height: 200px; 
+    background-color: #00ABE4;
+    
+}
+#google{
+    
+    
+    float: left;
+    display: inline-block;
+}
+#map{
+    height: 200px;
+    width: 200px;
+}
+#footer{
+    background-color: #00ABE4;
+    float: right;
+    display: inline-block;
+}
+.lii{
+    background-color: #00ABE4;
+    padding:10px;
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+}
+#contact{
+
+    background-color: #00ABE4;
+display: inline block;
+margin-left:600px ;
+
+}
+#ull{
+   
+}
+#liii{
+    padding:10px;
+    
+    color: white;
+    list-style-type: none;
+}
+#list{  
+    background-color: #00ABE4 ;
+    overflow: auto;
+}
+#sticky{
+    position: fixed;
+    width: 100%;
+}
+.nav{
+    color:white ;
+    float: left;
+    padding-right: 40px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    list-style-type: none;
+}
+.nav1{
+    color:WHITE;
+    float: left;
+    padding-top: 20px;
+    padding-right:500px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    list-style-type: none;
+    font-size: 28px;
+}
+</style>
+</head>
+<body>
+
+  <div id="sticky">
+    <ul id="list">
+        <li  class="nav1">RoyalZInformatics</li>
+        <a href="../html/index.html"><li class="nav">Home</li></a>
+        <a href="../html/aboutus.html"><li class="nav">About Us</li></a>
+      <a href="../html/feedback.html">  <li class="nav">Feedback</li></a>
+      <a href="../html/project.html">  <li class="nav">Projects</li></a>
+      <a href="../html/contactus.html">  <li class="nav">Sign Up</li></a>
+    </ul>
+    </div>
+    <img  id="img" src="../images/float3.jpg" alt=""> 
+<div class="container">
+    <h1>FEEDBACK FORM</h1>
+  <form action="">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+        <option value="india">India</option>
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+      
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+<hr>
+<div id="main2">
+  <div id="google" > <iframe  id="map" src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d14792.071850670176!2d78.92830612986262!3d22.04890836727416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d22.0410739!2d78.9401376!4m5!1s0x3bd5676a70b55215%3A0x46becb7ead620e5f!2sRoyalZ%20Informatics%2C%20Shop%20No%2032%20First%20Floor%2C%20Above%20LG%20Showroom%2C%20Rajiv%20Gandhi%20Bus%20Stand%2C%20Chhindwara%2C%20Madhya%20Pradesh%20480001!3m2!1d22.056743299999997!2d78.9355819!5e0!3m2!1sen!2sin!4v1690906679146!5m2!1sen!2sin" 
+    ></iframe></div>
+    <div id="footer">
+      <ul id="ull">
+        <li  class="lii">RoyalZInformatics</li>
+        <a href="../html/home.html"><li class="lii">Home</li></a>
+        <a href="../html/aboutus.html"><li class="lii">About Us</li></a>
+      <a href="../html/feedback.html">  <li class="lii">Feedback</li></a>
+      <a href="../html/project.html">  <li class="lii">Projects</li></a>
+      
+    </ul>
+    </div>
+    <div id="contact">
+      <ul>
+        <li id="liii">@royalz Informatics</li>
+        <li id="liii">royalz@.gmail.com</li>
+        <li id="liii">chhindwara</li>
+        <li id="liii">123122332</li>
+        
+      </ul>
+      
+    </div>
+  
+  </div>
+
+</body>
+</html>
